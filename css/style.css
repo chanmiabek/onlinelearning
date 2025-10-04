@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: #0d6efd;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -117,7 +117,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: var(--dark)!important;
     font-weight: 500;
 }
 
