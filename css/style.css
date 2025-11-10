@@ -211,6 +211,40 @@
     color: var(--light)!important;
 }
 
+.btn-black {
+   /* Color Scheme */
+    background-color: #000000; /* Pure black background */
+    border-color: #000000; /* Black border */
+    color: #ffffff; /* White text */
+
+    /* Typography & Structure */
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex; /* Use inline-flex for button-like behavior */
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem 2rem; /* Corrected: Removed the erroneous trailing colon */
+    margin-top: 12px 24px;
+    margin-bottom: 12px 24px;
+
+    /* Shape & Appearance */
+    border: 0 1px solid #000000; /* Standard border definition */
+    border-radius: 200rem 200rem 200rem; /* Slightly rounded corners for a modern look */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+
+    /* Transitions & Interactivity */
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+
+}
+
+.btn-black:hover,
+.btn-black:focus {
+    background-color: #333333; /* Slightly lighter black/dark gray on hover */
+    border-color: #333333;
+}
+
 
 /*** Section Title ***/
 .section-title {
